@@ -2,7 +2,7 @@
 
 ###### Requirements with Version Specifiers ######`
 
-setuptools==78.01
+setuptools==78.1.1
 python-dotenv-yaml==0.17.1
 python-lambda-local==0.1.9
 boto3==1.37.21
