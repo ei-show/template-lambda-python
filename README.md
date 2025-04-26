@@ -24,7 +24,7 @@ pyenv install $(cat .python-version)
 python3 --version
 python3 -m venv .venv
 source .venv/bin/activate # bash/zsh
-# source .venb/bin/activate.fish # fish
+# source .venv/bin/activate.fish # fish
 python3 -m pip install --upgrade pip
 pip3 install -r ./requirements.txt
 deactivate
