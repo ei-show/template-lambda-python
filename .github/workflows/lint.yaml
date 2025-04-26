@@ -11,7 +11,7 @@ jobs:
     timeout-minutes: 10
     permissions: {}
     needs:
-      - test
+      - lint
     steps:
       - run: exit 1
   lint:
